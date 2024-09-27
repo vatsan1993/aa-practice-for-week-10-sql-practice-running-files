@@ -1,0 +1,5 @@
+sqlite3
+.open example.db
+.read create-table.sql
+SELECT * FROM pies ORDER BY flavor;
+.schema
